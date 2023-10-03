@@ -24,13 +24,14 @@ def start_script():
         keyboard.tap(Key.enter)
         sleep(5.0)
         keyboard.press('w')
-        sleep(30)
+        sleep(27)
         keyboard.release('w')
-        sleep(0.4)
+        sleep(1)
         keyboard.tap('x')
         sleep(0.4)
         keyboard.tap(Key.enter)
         sleep(6.5)
+
 
 if __name__ == "__main__":
     print("Press F6 to start the script.")
